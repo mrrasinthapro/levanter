@@ -16,7 +16,7 @@
     },
     "SUDO": {
       "description": "admin",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "PREFIX": {
@@ -31,7 +31,7 @@
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
-      "required": false,
+      "required": true,
       "value": "❤️,LyFE"
     },
     "HEROKU_APP_NAME": {
@@ -44,7 +44,7 @@
     },
     "RMBG_KEY": {
       "description": "API key from remove.bg, required for plugin rmbg",
-      "required": false,
+      "required": true,
       "value": "null"
     },
     "LANGUAG": {
@@ -69,7 +69,7 @@
     },
     "ANTILINK_MSG": {
       "description": "Message send when antilink and action is kick.",
-      "required": false,
+      "required": true,
       "value": "_Antilink Detected &mention kicked_"
     },
     "ANTISPAM_MSG": {
@@ -89,7 +89,7 @@
     },
     "SS_TOKEN": {
       "description": "token from https://app.screenshotapi.net/dashboard",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "REJECT_CALL": {
@@ -99,7 +99,7 @@
     },
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
-      "required": false,
+      "required": true,
       "value": "false"
     },
     "SEND_READ": {
@@ -109,12 +109,12 @@
     },
     "AJOIN": {
       "description": "Accept Group join request(Group privacy)",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     "PERSONAL_MESSAGE": {
       "description": "Send a Welcome message on personal chat",
-      "required": false,
+      "required": true,
       "value": "null"
     },
     "DISABLE_START_MESSAGE": {
